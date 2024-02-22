@@ -15,13 +15,11 @@
             <Label
                 Text="Welcome To .NET MAUI Music"
                 Style="{StaticResource Headline}"
-                FontAttributes="Bold"
-                TextDecorations="Underline"/>
+                FontAttributes="Bold"/>
 
             <Label
                 Text="Create Profile"
                 Style="{StaticResource SubHeadline}"
-                TextDecorations="Underline"
                 FontAttributes="Bold" />
             
             <Entry
