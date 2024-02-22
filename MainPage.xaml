@@ -29,7 +29,7 @@
                 Keyboard="Text"
                 Opacity="100"
                 TextColor="Black"
-                Text="{Binding name}"
+                Text="{Binding Name}"
                 />
             
             <Entry
@@ -37,21 +37,21 @@
                 Keyboard="Text"
                 Opacity="100"
                 TextColor="Black"
-                Text="{Binding lastname}"/>
+                Text="{Binding LastName}"/>
             
             <Entry
                 Placeholder="Email Address"
                 Keyboard="Email"
                 Opacity="100"
                 TextColor="Black"
-                Text="{Binding email}"/>
+                Text="{Binding Email}"/>
             
             <Entry
                 Placeholder="Bio"
                 Keyboard="Text"
                 Opacity="100"
                 TextColor="Black"
-                Text="{Binding bio}"/>
+                Text="{Binding Bio}"/>
             
             <Button
                 x:Name="SaveBtn"

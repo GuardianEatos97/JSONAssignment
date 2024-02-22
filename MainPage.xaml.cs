@@ -87,7 +87,6 @@ namespace JSONAssignment
             string _fileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "profiles.txt");
             json = JsonConvert.SerializeObject(profile);
             File.WriteAllText(_fileName, json);
-           // SaveBtn.Text = File.ReadAllText(_fileName);
         }
 
         public static Profile LoadFile() 
