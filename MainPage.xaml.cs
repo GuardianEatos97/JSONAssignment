@@ -17,7 +17,9 @@ namespace JSONAssignment
         {
             InitializeComponent();
             BindingContext = this;
+            UserProfile = LoadFile();
             
+
         }
 
         #region Profile Data
@@ -92,9 +94,19 @@ namespace JSONAssignment
         public static Profile LoadFile() 
         {
             string _fileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "profiles.txt");
-            string profilecontent = File.ReadAllText(_fileName);
-            Profile newprofile = JsonConvert.DeserializeObject<Profile>(profilecontent);
-            return newprofile;
+            
+
+            if (File.Exists(_fileName))
+            {
+                string profilecontent = File.ReadAllText(_fileName);
+                Profile newprofile = JsonConvert.DeserializeObject<Profile>(profilecontent);
+                return newprofile;
+            }
+            else 
+            { 
+                return new Profile();
+            }
+            
         }
 
         private void SaveBtn_Clicked(object sender, EventArgs e)
@@ -104,7 +116,7 @@ namespace JSONAssignment
 
         private void LoadBtn_Clicked(object sender, EventArgs e)
         {
-            LoadFile();
+            UserProfile=LoadFile();
         }
 
         #endregion

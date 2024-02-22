@@ -1038,3 +1038,4 @@ C:\MyFirstNet\JSONAssignmentSln\JSONAssignment\obj\Debug\net8.0-android\stamp\_C
 C:\MyFirstNet\JSONAssignmentSln\JSONAssignment\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\MyFirstNet\JSONAssignmentSln\JSONAssignment\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\MyFirstNet\JSONAssignmentSln\JSONAssignment\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\MyFirstNet\JSONAssignmentSln\JSONAssignment\obj\Debug\net8.0-android\JSONAssignment.sourcelink.json

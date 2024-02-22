@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JSONAssignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+09e5f2ef5b7c9cdb92cdfce022d2e4381195e46f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+69214b13fcdfcb3396d74b21d3035782cdba381a")]
 [assembly: System.Reflection.AssemblyProductAttribute("JSONAssignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JSONAssignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
